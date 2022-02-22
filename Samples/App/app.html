@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datasources Sample</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Extensions Library (this will be hosted on a CDN eventually) -->
+  <!-- <script src="../../lib/tableau.extensions.1.latest.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/gh/tableau/extensions-api/lib/tableau.extensions.1.latest.js"></script>
+
+  <!-- 追加 -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css" />
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <!-- 追加 -->
+</head>
+
+<body>
+  <div class="container">
+    <!-- DataSources Table -->
+    <div id="dataSources">
+      <h4>シート「CRレポート_CRレポート」のフィルタ済みデータを表示</h4>
+      <div>
+        <table id="summary-data-table" class="table table-condensed table-hover table-striped">
+          <thead>
+            <tr>
+              <th>画像</th>
+              <th>広告名</th>
+              <th>広告タイトル</th>
+              <th>説明文</th>
+              <th>不明</th>
+              <th>データ</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <!-- Our extension's code -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
