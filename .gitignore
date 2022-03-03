@@ -2,3 +2,5 @@ dist
 lib/
 Samples/*
 !Samples/App/
+!Samples/ImageScatterPlot/
+!Samples/ImageTable/
